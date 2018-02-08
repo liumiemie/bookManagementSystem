@@ -1,0 +1,227 @@
+.search_id h3{
+	width: 928px;
+	background: #fff;
+	margin-bottom: 20px;
+	line-height: 58px;
+	border: 1px solid #ccc;
+	font-weight: 500;
+	color: #747474;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.id_find{
+	width: 918px;
+	background: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	font-weight: 500;
+	color: #747474;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 15px;
+}
+.id_find input{
+	float: left;
+	width: 300px;
+    height: 26px;
+    border: 0;
+    border: 1px solid #eee;
+    outline: none;
+    padding-left: 10px;
+}
+.id_find button{
+	float: left;
+	border: 0;height: 28px;
+	width: 40px;
+	background-color: #0180cd;
+	color: #fff;
+	outline: none;
+}
+.con-book{
+	margin-top: 25px;
+	background: #fff;
+}
+.con-book table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.con-book table tr{
+	line-height: 80px;
+	text-align: center;
+}
+.con-book table thead{
+	background: #f1f1f1;	
+}
+
+.con-book table thead tr{
+	line-height: 50px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 500;
+
+}
+
+.del{
+	display: inline-block;
+    width: 35px;
+    height: 30px;
+    background: #ed5564;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 5px;
+}
+.edit{
+	display: inline-block;
+    width: 35px;
+    height: 30px;
+    background: #ed5564;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* 图书类别样式 */
+.book_sort_box{
+	width: 928px;
+	background: #fff;
+	margin-bottom: 20px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	font-weight: 500;
+	color: #747474;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.book_sort_box a{
+	margin-right: 17px;
+	color: #333;
+}
+.book_sort_box a:hover{
+	color: #ed5564;
+}
+
+/* 图书状态审核样式 */
+.editStatus{
+	display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: #ed5564;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* 续借的样式 */
+.filter{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.alertbox{
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	font-size: 12px;
+	display: none;
+}
+.alertbox h3{
+	line-height: 40px;
+	font-weight: 500;
+	text-align: center;
+	background: #ccc;
+	color: #fff;
+	font-size: 14px;
+}
+
+.alertbox label{
+	line-height: 90px;
+    text-align: center;
+    padding-left: 20px;
+}
+.alertbox input{
+	width: 150px;
+    height: 25px;
+    border: 0;
+    border: 1px solid #eee;
+    outline: none;
+    padding-left:10px ;
+}
+.alertbox a{
+	display: inline-block;
+    width: 45px;
+    height: 30px;
+    background: #ed5564;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 5px;
+}
+.alertbox p{
+	text-align: center;
+}
+
+/* 弹出修改框的样式 */
+.editBox{
+	width: 350px;
+	overflow: hidden;
+	background: #fff;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	font-size: 12px;
+	display: none;
+}
+.editBox h3{
+	line-height: 40px;
+	font-weight: 500;
+	text-align: center;
+	background: #ccc;
+	color: #fff;
+	font-size: 14px;
+}
+.editBox p{
+	padding-right: 70px;
+    text-align: right;
+    line-height: 47px;
+}
+ .editBox input{
+	width: 150px;
+    height: 25px;
+    border: 0;
+    border: 1px solid #eee;
+    outline: none;
+    padding-left:10px ;
+}
+.editBox .tacP{
+	text-align: center;
+	padding: 0;
+}
+.tacP a{
+	display: inline-block;
+    width: 45px;
+    height: 30px;
+    background: #ed5564;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 5px;
+}

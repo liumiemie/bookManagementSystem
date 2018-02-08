@@ -1,0 +1,68 @@
+body,ul,li,p,input{margin:0;padding:0;}
+.Box{
+    width:950px;
+    margin:0 auto;
+}
+.add_head{
+    width:950px;
+    height: 58px;
+    background: white;
+    line-height:58px;
+    border:1px solid #ededed; 
+}
+.add_head ul{
+    overflow: hidden;
+    color:#878787;
+    font-size:12px;
+}
+.add_head ul li{
+    float: left;
+    margin-left: 21px;
+    list-style: none;
+}
+.add_content{
+    margin-top:24px;
+}
+.content_head{
+    height: 50px;
+    background:#f1f1f1;
+    text-align: center;
+    color:black;
+    font-size: 18px;
+    line-height: 50px;
+}
+.add_content .add_info{
+    width:292px;
+    margin:0 auto;
+    text-align: right;
+}
+.add_info p{
+    margin-top:20px;
+    color:#636363;
+    font-size:14px;
+}
+.add_info p input{
+    width:200px;
+    height:30px;
+    border:1px solid #f1f1f1;
+    outline: none;
+    padding-left: 20px;
+}
+#add_sort{
+    width:217px;
+    height:34px;
+    border:1px solid #f1f1f1;
+    outline: none;
+    padding-left: 10px;
+}
+.add_box{
+    width:70px;
+    margin-top:20px;
+    background: #ed5564;
+    text-align: center;
+    line-height: 30px;
+    height:30px;
+    color:white;
+    margin-left:295px;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+body,p{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 950px;
+}
+.tp{
+	height: 58px;
+	border: 1px solid #EDEDED;
+	background: #fff;
+	margin-top: 40px;
+	line-height: 58px;
+	font-size: 12px;
+	color: #868686;
+}
+.margin22{
+	margin: 0 22px;
+}
+.bt{
+	width: 948px;
+	border: 1px solid #EDEDED;
+	margin-top: 24px;
+}
+.bt table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.bt table th{
+	height: 50px;
+	background-color: #f1f1f1;
+	color: #666;
+}
+.bt table td{
+	background-color: #fff;
+	text-align: center;
+	height: 79px;
+	border-bottom: 1px solid #ededed;
+	color: #919191;
+	font-size: 14px;
+}
+.bt table td .student_info{
+	cursor: pointer;
+	width: 63px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    background: #ed5564;
+    color: white;
+    border-radius: 7px;
+}
+.bt table td .num{
+	cursor: pointer;
+	width: 63px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    background: #ed5564;
+    color: white;
+    border-radius: 7px;
+}

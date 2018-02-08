@@ -1,0 +1,80 @@
+ul,li{margin: 0;padding: 0;}
+.content{
+	width: 1206px;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom: 1;
+}
+.cont_left{
+	float: left;
+	width: 175px;
+	height: 100%;
+	border-right: 1px solid #eaeaea;
+	background-color: #fff;
+}
+/*左侧导航栏css样式设置*/
+.cont_left ul{
+	width: 100%;
+}
+/*一级菜单样式*/
+.cont_left ul li{
+	width: 100%;
+	/*padding-left: 10%;*/
+	list-style: none;
+	font:16px/60px "微软雅黑";
+	color: #333;
+	overflow: hidden;zoom: 1;
+}
+/*一级菜单左侧小图标*/
+.cont_left ul li span{
+	display: block;
+	float: left;
+	height: 60px;
+	background: url(../imgs/icon_03.jpg) left center no-repeat;
+	padding-left: 30px;
+	margin-left: 15px;
+	}
+.cont_left ul li:nth-of-type(2) span{
+	background: url(../imgs/icon_08.jpg) left center no-repeat;
+}
+.cont_left ul li:nth-of-type(3) span{
+	background: url(../imgs/icon_10.jpg) left center no-repeat;
+}
+.cont_left ul li:nth-of-type(4) span{
+	background: url(../imgs/icon_12.jpg) left center no-repeat;
+}
+.cont_left ul li:nth-of-type(5) span{
+	background: url(../imgs/icon_03.jpg) left center no-repeat;
+}
+/*一级菜单右侧小图标*/
+.cont_left ul li i{
+	display: block;
+	float: right;
+	width: 10px;height: 18px;
+	margin-top: 21px;
+	background: url(../imgs/icon_16.jpg);
+	margin-right: 5%;
+	}
+/*二级菜单样式*/
+.cont_left li ul{
+	width: 100%;
+}
+.cont_left li ul li{
+	width: 130px;
+	padding-left: 45px;
+	font:12px/36px "微软雅黑";
+	color: #666;
+	cursor: pointer;
+}
+/*hover效果*/
+.cont_left ul li li:hover{
+	background-color: #f5f9fc;
+	color: red;
+}
+/*右侧内容大盒子*/
+.cont_right{
+	float: right;
+	width: 950px;
+	/*background-color: #fff;*/
+	margin-top: 40px;
+}

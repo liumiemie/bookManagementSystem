@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图书管理系统——后台页面</title>
+		<!--头部-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--增加-->
+		<link rel="stylesheet" type="text/css" href="css/AddBook.css"/>
+		<!--删除-->
+		<link rel="stylesheet" type="text/css" href="css/Delete.css"/>
+		<!--修改-->
+		<link rel="stylesheet" type="text/css" href="css/student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/student_change.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pass_change.css"/>
+		<link rel="stylesheet" type="text/css" href="css/book_num_change.css"/>
+		<!-- 查询 -->
+		<link rel="stylesheet" type="text/css" href="css/search_byId.css"/>
+		<!--首页-->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!-- 通过作者查询、学生查询、借阅记录、罚款管理css样式-->
+		<link rel="stylesheet" type="text/css" href="css/pyj.css"/>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div id="header">
+			
+		</div>
+		<div class="content">
+			<div class="cont_left">
+				<ul>
+					<li>
+						<span>图书管理</span><i></i>
+						<ul>
+							<li id="addbook">新增图书</li>
+							<li id="loss">图书挂失</li>
+							<li id="delayBorrow">图书续借</li>
+							<li id="deletebook">图书下架</li>
+							<li id="checkStatus">状态审核</li>
+						</ul>
+					</li>
+					<li>
+						<span>学生管理</span><i></i>
+						<ul>
+							<li id="addstu">新增学生</li>
+							<li id="deletestu">删除学生</li>
+							<li id="edit">修改信息</li>
+						</ul>
+					</li>
+					<li id="pena">
+						<span>罚款管理</span>
+					</li>
+					<li>
+						<span>信息查询</span><i></i>
+						<ul>
+							<li id="sear_byBookId">通过ID查询图书</li>
+							<li id="sear_byBookName">通过书名查询图书</li>
+							<li id="sear_byBookSort">通过类别查询图书</li>
+							<li id="authorSearch">通过作者查询图书</li>
+							<li id="stuSearch">查询学生信息</li>
+							<li id="loanSearch">查询图书借阅记录</li>
+						</ul>
+					</li>
+					<li>
+						<span>账户管理</span><i></i>
+						<ul>
+							<li id="pass">修改密码</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="cont_right">
+				<div id="cont">
+					<h3 class="welcomeh3">欢迎进入图书管理系统</h3>
+					<div class="con-book">
+					<table>
+						<thead>
+						<tr>
+							<th>id</th>
+							<th>书名</th>
+							<th>类别</th>
+							<th>作者</th>
+							<th>出版社</th>
+							<th>价格</th>
+							<th>条形码</th>
+							<th>库存</th>
+							<th>当前数量</th>
+							<th>存放位置</th>
+							<th>操作</th>
+						</tr>
+						</thead>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td><a href="##" class="del">删除</a></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./js/lib/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/js/index.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/js/getAllBook.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/js/student_change.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/js/book_num_change.js" type="text/javascript" charset="utf-8"></script>
+

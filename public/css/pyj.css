@@ -1,0 +1,228 @@
+﻿body{background-color: #f5f9fc;}
+/*通过作者查询图书信息*/
+.search_author{
+	width: 950px;
+	background-color: #f5f9fc;
+}
+/*搜索框*/
+.author_find{
+	height: 78px;
+	width: 928px;
+	padding-left: 20px;
+	border: 1px solid #eaeaea;
+	border-radius: 4px;
+	background-color: #fff;
+}
+.author_find h3{
+	width: 100%;height: 36px;
+	font: 14px/36px "微软雅黑";
+	font-weight: 500;
+	color:#747474;
+}
+.author_find p{
+	height: 28px;width: 300px;
+	font: 14px/36px "微软雅黑";
+	font-weight: 500;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+.author_find p input{
+	float: left;
+	border: 0;height: 28px;
+	width: 250px;
+	padding-left: 10px;
+	outline: none;
+	border-radius: 4px;
+}
+.author_find p button{
+	float: left;
+	border: 0;height: 28px;
+	width: 40px;
+	background-color: #ed5564;
+	color: #fff;
+	outline: none;
+}
+/*通过作者查询图书信息结果显示*/
+.author_cont{
+	width: 100%;
+	margin-top: 20px;
+}
+.author_cont table{
+	width: 100%;
+}
+.author_cont table th{
+	height: 50px;
+	background-color: #f1f1f1;
+	color: #666;
+}
+.author_cont table td{
+	background-color: #fff;
+	text-align: center;
+	height: 79px;
+	border-bottom: 1px solid #ededed;
+	color: #919191;
+	font-size: 14px;
+}
+/*查询学生信息样式*/
+.stuMess{
+	width: 100%;
+}
+/*学生信息查询方式选择样式*/
+.stu_findway{
+	width: 100%;
+}
+.stu_findway ul{
+	height: 36px;
+}
+.stu_findway ul li{
+	float: left;
+	padding: 0 25px;
+	list-style: none;
+	font: 14px/36px "微软雅黑";
+	background-color: #f1f1f1;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+}
+.stu_findway li input{
+	height: 26px;width: 215px;
+	padding-left: 20px;
+	border: 1px solid #EAEAEA;
+	border-radius: 4px;
+}
+/*样式查询方式hover效果：背景颜色变为红色*/
+.stu_findway ul li:hover{
+	background-color: #ed5564;
+	color: #fff;
+}
+/*输入框背景色不变*/
+.stu_findway ul li:nth-of-type(1):hover{
+	background-color: #f1f1f1;
+}
+.pyj_table{
+	width: 100%;
+	margin-top: 20px;
+}
+.pyj_table table{
+	width: 100%;
+}
+.pyj_table table th{
+	height: 50px;
+	background-color: #f1f1f1;
+	color: #666;
+}
+.pyj_table table td{
+	background-color: #fff;
+	text-align: center;
+	height: 49px;
+	border-bottom: 1px solid #ededed;
+	color: #919191;
+	font-size: 14px;
+}
+
+
+
+/*借阅记录板块css样式*/
+.loaning{
+	width: 100%;
+}
+.loan_findway{
+	width: 950px;height: 36px;
+	background-color: #F1F1F1;
+}
+.loan_findway span{
+	float: left;
+	padding: 0 10px;
+	font: 16px/36px "微软雅黑";
+	cursor: pointer;
+}
+/*点击后css样式*/
+.loan_findway .loat_check{
+	background-color: #ED5564;
+	color: #fff;
+}
+/*操作样式*/
+.loan_cont a{
+	color: #999;
+	display: block;
+}
+.loan_cont a:hover{
+	color: #ED5564;
+}
+
+
+
+/*罚款管理模块样式设置*/
+.penalty{
+	width: 100%;
+}
+.penalty .loan_findway span input{
+	width: 260px;height: 34px;
+	border: 1px solid #999;
+	border-right: 0;
+	float: left;
+	padding-left: 20px;
+	outline: none;
+}
+.penalty .loan_findway span button{
+	border: 0;
+	width: 40px;height: 36px;
+    border: 1px solid #999;
+    border-left: 0;
+    float: left;
+    background-color: #ed5564;
+    color: #fff;
+    outline: none;
+}
+#pena{cursor:pointer;}
+
+/*查询背景色*/
+.find_color{
+	background-color: #ed5564 !important;
+    color: #fff !important;
+}
+
+/*登录页面样式设置*/
+#login{
+	width:300px;
+	margin: 50px auto;
+	padding-bottom: 15px;
+	border: 1px solid #ED5564;
+	border-radius: 4px;
+}
+#login h3{
+	margin: 0;
+	width: 280px;height: 50px;
+	padding-left:20px ;
+	background-color: #ED5564;
+	color: #fff;
+	font: 20px/50px "微软雅黑";
+}
+#login p{
+	height: 30px;
+	margin: 25px 0;
+}
+#login p input{
+	float: left;
+	margin: 0;padding: 0;
+	border: 0;outline: none;
+	width: 200px;height: 28px;
+	border: 1px solid #EAEAEA;
+	border-radius: 4px;
+	font:14px/28px "微软雅黑";
+	padding-left: 10px;
+}
+#login p span{
+	float: left;
+	width: 50px;height: 30px;
+	font:14px/30px "微软雅黑";
+	padding-left: 20px;
+}
+#login button{
+	margin: 0;padding: 0;
+	border: 0;outline: none;
+	height: 30px;width: 100px;
+	background-color: #ED5564;
+	color: #fff;
+	font:16px/30px "微软雅黑";
+	margin-left: 100px;
+}

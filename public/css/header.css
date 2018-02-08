@@ -1,0 +1,87 @@
+body,ul,p,h3,input,button{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f5f9fc;
+}
+.header-bg{
+	width: 100%;
+	overflow: hidden;
+	background: #ed5564;
+}
+.header{
+	width: 1206px;
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 12px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+	width: 260px;
+	overflow: hidden;
+}
+.fr a{
+	margin-left: 20px;
+}
+.header a{
+	color: #fff;
+}
+.logo{
+	display: block;
+	font-size: 20px;
+}
+.info{
+	display: inline-block;
+	width: 17px;
+	height: 14px;
+	background: url(../imgs/icon_xinxi.jpg) no-repeat;
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.help{
+	display: inline-block;
+	width: 13px;
+	height: 14px;
+	background: url(../imgs/icon_wen.jpg) no-repeat;
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.my{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url(../imgs/icon_my.jpg) no-repeat;
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.icon_san{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	background: url(../imgs/icon_sanjiao.jpg) no-repeat;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.welcomeh3{
+	 width: 928px;
+    background: #fff;
+    margin-bottom: 20px;
+    line-height: 58px;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    color: #747474;
+    font-size: 14px;
+    padding-left: 20px;
+}
+   

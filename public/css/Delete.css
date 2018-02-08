@@ -1,0 +1,57 @@
+body,p{
+	margin: 0;
+	padding: 0;
+}
+.Box{
+    width: 950px;
+}
+.delete_head{
+	height: 58px;
+	border: 1px solid #EDEDED;
+	background: #fff;
+	line-height: 58px;
+	font-size: 12px;
+	color: #868686;
+}
+.delete_txt{
+	margin: 0 22px;
+}
+.delete_ta{
+	width: 948px;
+	border: 1px solid #EDEDED;
+	margin-top: 24px;
+}
+.delete_ta table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.delete_ta table th{
+	height: 50px;
+	background-color: #f1f1f1;
+    color: #666;
+    font-size: 13px;
+    font-weight:normal;
+}
+
+.delete_ta table td{
+	background-color: #fff;
+	text-align: center;
+    height: 79px;
+    border-right:none;
+	border-bottom: 1px solid #ededed;
+	color: #919191;
+	font-size: 12px;
+}
+#delbtn{
+    text-align: center;
+}
+#delbtn span{
+    width:63px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    display:inline-block;
+    background:#ed5564;
+    color:white;
+    border-radius: 7px;
+}
