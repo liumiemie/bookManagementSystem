@@ -18,6 +18,8 @@ npm install
 
 # 运行程序
 执行node指令运行backEnd.js
+
+
 node backEnd
 
 # 浏览器打开地址
